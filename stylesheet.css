@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+
+.title  {
+    position: absolute;
+    color: #52D08E;
+    font-size: 65px;
+    width: 750px;
+    text-align: center;
+    margin: 0;
+}
+
+.star {
+    animation: planet 300s reverse infinite linear;
+    transform-origin: center;
+}
+
+@keyframes stars {
+    100% {transform: rotate(90deg)}
+}
+
+.rotate {
+    transform-origin: center;
+}
+
+@keyframes planet {
+    100% {transform: rotate(360deg)}
+}
+
+.planet {
+    animation: planet 10s infinite linear;
+}
+
+.planet1 {
+    animation: planet 3s infinite linear;
+}
+
+.planet2 {
+    animation: planet 4s infinite linear;
+}
+
+.planet3 {
+    animation: planet 6s infinite linear;
+}
+
+.planet4 {
+    animation: planet 6s infinite linear;
+}
+
+.planet5 {
+    animation: planet 12s infinite linear;
+}
+
+.planet6 {
+    animation: planet 14s infinite linear;
+}
+.planet7 {
+    animation: planet 17s infinite linear;
+}
+.planet8 {
+    animation: planet 20s infinite linear;
+}
+
+.planet9 {
+    animation: planet 23s infinite linear;
+}
+
+.planet10 {
+    animation: planet 26s infinite linear;
+}
+
+.planet11 {
+    animation: planet 30s infinite linear;
+}
+
+
+
